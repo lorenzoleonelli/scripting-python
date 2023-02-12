@@ -1,5 +1,5 @@
 ## Staff from tutorial The Complete Python Bootcamp From Zero to Hero in Python (Udemy)
-## Comments are doubled
+## Comments are doubled, real code has a single comment
 
 ## S3.11 Introduction to Python Data Types
 ## NAME             TYPE        DESCRIPTION
