@@ -62,3 +62,20 @@
 # print(my_name.split())
 # print(my_name.split('i'))
 
+## S3.19 Strings Formatting for printing
+## 2 methods: .format() and f-strings (formatted strings literals)
+# print("This is a string {}" .format('-inserted-'))
+
+# print("The {} {} {}" .format("fox", "quick", "brown"))
+
+# print("The {1} {2} {0}" .format("fox", "quick", "brown"))
+
+# print("The {q} {b} {f}" .format(f = "fox", q = "quick", b = "brown"))
+
+#result = 1/7
+#print("Result= {r}" .format (r=result))
+#print("Result= {r:1.2f}" .format (r=result))
+
+#name = "Pino"
+#print(f"Hello, he is {name}")
+
