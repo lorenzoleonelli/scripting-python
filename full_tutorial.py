@@ -24,7 +24,7 @@
 ## variable reassignement: a = a + 10
 
 ## S3.15 Strings
-## Ordered Sequences of characters using " or ' -> can be indexed/sliced
+## Ordered and Immutable Sequences of characters using " or ' -> can be indexed/sliced
 ## slicing = [start:stop:step]
 # print("hello") 
 # print ("hello \nworld")
@@ -32,4 +32,33 @@
 ## len() gives the length of a string
 #print(len("ciao"))
 
+## S3.16 Strings Indexing and Slicing
+#my_string = "Hello World"
+#print(my_string)
+#print(my_string[0])
+#print(my_string[-1])
+#print(my_string[1:]) #First character is character 0
+#print(my_string[:5]) # The stop is up to , but not included
+#print(my_string[3:8])
+#print(my_string[::]) # Technically valid but not in use
+#print(my_string[::3])
+#print(my_string[::-1]) # Reverse the String
+
+## S3.17 Strings Properties and Methods
+## String Concatenation
+# name = "Sam"
+# last_letters = name[1:]
+# new_name = "P" + last_letters
+# print(new_name)
+
+## String multiplication
+# my_name = "Sam is my Friend"
+# print(my_name * 3)
+
+## String methods
+# my_name = "Sam is my Friend"
+# print(my_name.upper())
+# print(my_name.lower())
+# print(my_name.split())
+# print(my_name.split('i'))
 
