@@ -141,3 +141,13 @@
 #print(my_pr_li.items())
 
 ## S3.25 Tuples
+## Tuples are like lists but are immutable
+
+my_tup = ('a','b','c')
+print(type(my_tup))
+print(my_tup[1])
+print("length of tuple is: " , len(my_tup))
+print(my_tup.count(1))
+print(my_tup.index('b'))
+
+
