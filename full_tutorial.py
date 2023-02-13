@@ -118,6 +118,26 @@
 #ml.sort() #doesn't return anything to assign is a none type
 #print(ml)
 
-## 
+## Reverse elements of a list
+#ml =["c", "f", "k", "a"]
+#ml.reverse()
+#print(ml)
 
+## Nested lists
+#my_nl =[1,2,[3,5,7]]
+#print(my_nl[2][1])
 
+## S3.23 Dictionaries: unordered mappings to store opbjects {'key':'value1},'key2':'value2'}
+## Dictionaries are unordered and cannot be sorted
+
+#my_dict = {'key1':'value1','key2':'value2'}
+#print(my_dict)
+#print(my_dict['key1'])
+
+#my_pr_li = {'hot_dog':4.99 , 'hamburger':5.99 , 'pommes':2.99}
+#print(my_pr_li['hamburger'])
+#print(my_pr_li.keys())
+#print(my_pr_li.values())
+#print(my_pr_li.items())
+
+## S3.25 Tuples
