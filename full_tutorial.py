@@ -81,4 +81,43 @@
 
 ## S3.21 Lists
 ## Ordered sequences that can hold a variety of object types, use [] and , to separate objects in a list, support indexing and slicing and can be nested
+#my_list = [1,2,3]
+
+#my_list = ["string1",12,3.0]
+#print(my_list[0])
+
+#my_list1 = [1,2,3]
+#my_list2 = [4,5,6]
+#finalist = my_list1 + my_list2
+#print(finalist)
+#print(finalist[:4])
+
+## lists can be mutated, differently than strings
+#my_list1 = [1,2,3]
+#my_list1[0] = "ciao"
+#print(my_list1)
+
+## Itemps can be appended
+#my_list1 = [1,2,3]
+#my_list1.append(4)
+#print(my_list1)
+
+## Remove Items from a list with the pop() method
+#my_list1 = [1,2,3]
+#my_list1.pop() #by default index for pop() is -1
+#print(my_list1)
+#popped_item=my_list1.pop()
+#print(popped_item)
+
+#my_list1 = [1,2,3]
+#my_list1.pop(0)
+#print(my_list1)
+
+## Sort element in a list. The sort method occurs in place
+#ml =["c", "f", "k", "a"]
+#ml.sort() #doesn't return anything to assign is a none type
+#print(ml)
+
+## 
+
 
