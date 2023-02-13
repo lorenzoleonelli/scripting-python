@@ -62,7 +62,7 @@
 # print(my_name.split())
 # print(my_name.split('i'))
 
-## S3.19 Strings Formatting for printing
+## S3.19 Print Formatting with strings
 ## 2 methods: .format() and f-strings (formatted strings literals)
 # print("This is a string {}" .format('-inserted-'))
 
@@ -78,4 +78,7 @@
 
 #name = "Pino"
 #print(f"Hello, he is {name}")
+
+## S3.21 Lists
+## Ordered sequences that can hold a variety of object types, use [] and , to separate objects in a list, support indexing and slicing and can be nested
 
