@@ -166,5 +166,29 @@
 
 ## S3.28 Basic I/O with Files
 ## Very common error: FileNotFoundError: [Errno 2] No such file or directory
-myfile = open('myfile.txt') #open a text file
-print(myfile.read())
+#myfile = open('myfile.txt') #open a text file
+#print(myfile.read()) #read the file as a unique giant string
+#myfile.seek(0) #you must put the cursor back at the beginning ot the txt file
+#print(myfile.read())
+
+#myfile = open('myfile.txt') #open a text file
+#p(rint(myfile.readlines())
+
+## For windows filepath use \\; for MacOS and Linux use /
+## Remember to close the file 
+
+#myfile = open('myfile.txt') #option 1
+#print(myfile.readlines())
+#myfile.close
+
+#with open('myfile.txt') as my_new_file:
+#    contents = my_new_file.read()
+#    print(contents)
+
+## Modes: r,w,a,r+,w+
+
+#with open('test_new_file.txt',mode="w") as f: # Creating a new file simply giving the name of a non existent file
+#    f.write('Creating a new file')
+
+
+
