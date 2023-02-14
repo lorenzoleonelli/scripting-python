@@ -150,5 +150,21 @@
 #print(my_tup.count(1))
 #print(my_tup.index('b'))
 
+## S3.26 Sets: unordered collection of unique elements
+#myset=set()
+#myset.add(3)
+#myset.add(2)
+#myset.add(3)
+#print(myset)
 
+#mylist=[1,1,1,1,2,2,3]
+#print(set(mylist))
 
+## S3.26 Booleans: True and False <- Capital
+#print(1>2)
+#print(1==1)
+
+## S3.28 Basic I/O with Files
+## Very common error: FileNotFoundError: [Errno 2] No such file or directory
+myfile = open('myfile.txt') #open a text file
+print(myfile.read())
