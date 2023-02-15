@@ -222,4 +222,10 @@
 #else:
 #    print("ciao")
 
+## 5.35 For Loops
+
+#my_it=[1,2,3,4]
+#for i in my_it:
+#    print(i)
+
 
