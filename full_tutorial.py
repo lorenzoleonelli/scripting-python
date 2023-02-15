@@ -190,5 +190,8 @@
 #with open('test_new_file.txt',mode="w") as f: # Creating a new file simply giving the name of a non existent file
 #    f.write('Creating a new file')
 
-
-
+## S3.32 Comparison Operators
+print(2 == 1)
+print(2 == 2)
+print(2 != 1)
+print(2 != 2)
