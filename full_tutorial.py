@@ -190,8 +190,36 @@
 #with open('test_new_file.txt',mode="w") as f: # Creating a new file simply giving the name of a non existent file
 #    f.write('Creating a new file')
 
-## S3.32 Comparison Operators
-print(2 == 1)
-print(2 == 2)
-print(2 != 1)
-print(2 != 2)
+## S4.32 Comparison Operators
+#print(2 == 1)
+#print(2 == 2)
+#print(2 != 1)
+#print(2 != 2)
+#print(2 >= 1)
+
+## S4.33 Chaining Comparison Operators
+
+#print(1<2<3)
+#print(1<2 and 2<3)
+#print(1<2 or 2>3)
+#print(3<2 or 2>3)
+#print(not(1==1))
+
+## 5.34 If, Elif, Else
+## id some_condition:
+##      execute some code
+## else:
+##      do something else
+
+#if 3>2:
+#    print("its true")
+
+#loc = "Auto"
+#if loc =="Auto":
+#    print("Cars are cool")
+#elif loc == "Bank":
+#    print("money is cool")
+#else:
+#    print("ciao")
+
+
