@@ -228,4 +228,12 @@
 #for i in my_it:
 #    print(i)
 
+#my_string="Hello world"
+#for letter in my_string:
+#    print(letter)
 
+for letter in "Hello World":
+    print(letter)
+
+
+## 5.35 For Loops
