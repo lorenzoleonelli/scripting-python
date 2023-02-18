@@ -364,7 +364,29 @@
 ## 6.42 Functions
 
 ## 6.43 Def Keyword
+## Use snake casing with the name of functions
+## Docstrings explain the function '''
 
+#def my_function():
+#    '''
+#    Simple function sending a greeting
+#    '''
+#    print("Hello")
+#my_function()
+
+#def my_function(name):
+#    '''
+#    Simple function sending a greeting for a person
+#    '''
+#    print("Hello " + name)
+#my_function("Lorenzo")
+
+#def sum_function(int1,int2):
+#    return (int1 + int2)
+#result = sum_function(8,7)
+#print(result)
+
+## 6.44 Basics of Functions
 
 
 
