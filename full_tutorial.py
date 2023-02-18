@@ -313,5 +313,58 @@
 #for item in zip(mylist1,mylist2):
 #    print(item)
 
+#is_in=("a" in "a World")
+#print(is_in)
+
+#mylist = [1,2,3,5]
+#print(min(mylist))
+#print(max(mylist))
+
+#from random import shuffle
+#mylist=[1,2,3,4,5]
+#mylist2 = shuffle(mylist) #Note: shuffle operates in place, mylist2 is empty
+#print(mylist)
+#print(mylist2)
+
+#from random import randint
+#print(randint(0,100))
+
+#result = input("Enter a number: ")
+#print(result)
+#print(type(result))
+
+## 5.38 List Comprehension
+
+#mystring = "hello"
+#mylist = []
+#for letter in mystring:
+#    mylist.append(letter)
+#print(mylist)
+
+#mystring = "hello"
+#mylist = [letter for letter in mystring]
+#print(mylist)
+
+#mylist = [letter for letter in "Ciao Giuseppi"]
+#print(mylist)
+
+#mylist = [x for x in range(1,10)]
+#print(mylist)
+
+#mylist = [x**2 for x in range(1,10)]
+#print(mylist)
+
+## 6.41 Methods
+
+#mylist=[1,2,3]
+#mylist.insert(0,99)
+#print(mylist)
+#print(sorted(mylist))
+
+## 6.42 Functions
+
+## 6.43 Def Keyword
+
+
 
 
