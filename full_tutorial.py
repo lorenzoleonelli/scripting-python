@@ -277,8 +277,41 @@
 #        continue
 #    print(letter)
 
-mystring="ciao"
-for letter in mystring:
-    if letter == "a":
-        break
-    print(letter)
+#mystring="ciao"
+#for letter in mystring:
+#    if letter == "a":
+#        break
+#    print(letter)
+
+## 5.37 Useful Operators
+
+#for num in range(10):
+#    print(num)
+
+#for num in range(0,11;2):
+#    print(num)
+
+#mylist = list(range(0,11,2))
+#print(mylist)
+
+#index_count = 0
+#for letter in "abcdef":
+#    print ("At index {} the letter is {}".format(index_count, letter))
+#    index_count +=1
+
+#myword = "abcdefg"
+#for item in enumerate(myword):
+#    print(item)  # returns tuples
+
+#mylist1 =[1,2,3]
+#mylist2 = ["a","b","c"]
+#for item in zip(mylist1,mylist2):
+#    print(item)
+
+#mylist1 =[1,2,3,4,5,6] # values after 4 will be ignored
+#mylist2 = ["a","b","c"]
+#for item in zip(mylist1,mylist2):
+#    print(item)
+
+
+
