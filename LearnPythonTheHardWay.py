@@ -36,7 +36,7 @@
 
 ## EX4: Variables and Names
 
-cars = 100
+""" cars = 100
 space_in_a_car = 4.0
 drivers = 30
 passengers = 90
@@ -50,7 +50,27 @@ print("There are only ", drivers, " drivers available")
 print("There will be ", cars_not_driven, "cars not driven")
 print("We can transport ", carpool_capacity, " passengers today")
 print("We have", passengers, " to carpool today")
-print("We need to put ", average_passengers_per_car, " in each car")
+print("We need to put ", average_passengers_per_car, " in each car") """
+
+## EX5: More Variables and Printing
+
+""" my_name = 'Lorenzo'
+my_age = 49
+my_height = 180
+my_weight = 68
+my_eyes = 'Blue'
+my_teeth = 'white'
+my_hair = 'Brown'
+
+print("Let's talk about %s" % my_name)
+print("He's %r cm tall." % my_height)
+print("He is %d kg heavy." % my_weight)
+print("He has %s hair and %s eyes" % (my_hair , my_eyes))
+print("His teeth are generalli %s depending on the cofee" % my_teeth) """
+
+## EX6: Strings and Text
+
+
 
 
 
