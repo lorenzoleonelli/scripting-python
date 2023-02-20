@@ -388,11 +388,32 @@
 
 ## 6.44 Basics of Functions
 
-# Given 2 numbers returns a list with number **2 and **3
+#def say_hello(name="Default Name"):
+#    print("Hello", name)
+#say_hello()
+#say_hello("Mario")
 
-def list_quad(num1):
-    return[num1**2, num1**3]
+#def ev_sum(num1,num2):
+#    return [num1,num2,num1+num2]
+#print(ev_sum(2,5))
 
-result = list_quad(4)
-print(result)
+## 6.45 Logic with Functions
+
+#if (type ("asd")) == int:
+#    print("intero")
+#else:
+#    print("non intero")
+
+## 6.46 Tuple unpacking with functions
+
+
+
+## 6.47 Interaction between functions
+
+
+
+
+
+
+
 
