@@ -388,5 +388,11 @@
 
 ## 6.44 Basics of Functions
 
+# Given 2 numbers returns a list with number **2 and **3
 
+def list_quad(num1):
+    return[num1**2, num1**3]
+
+result = list_quad(4)
+print(result)
 
