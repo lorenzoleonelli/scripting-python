@@ -168,7 +168,7 @@ print (formatter % (
 """ age = input("How old are you ?")
 print("Hello, you are %r old" % age) """
 
-
+## EX 12: Prompting People
 
 
 

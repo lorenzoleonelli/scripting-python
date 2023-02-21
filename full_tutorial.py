@@ -447,7 +447,17 @@ mixed_list = shuffle_list(mylist)
 guess = player_guess()
 check_guess(mixed_list,guess) """
 
+## 6.47 args and kwargs
 
+#def myfunc(a,b):
+#    #Returns 5% of the sum
+#    return (a + b) * 0.05
+#
+#print(myfunc(40,60))
+
+def myfunc(a,b,c=0,d=0):
+    return sum((a,b,c,d)) * 0.05
+print(myfunc(30,30,40,100))
 
 
 
