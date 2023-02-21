@@ -577,3 +577,4 @@ print(myfunk("ciao")) """
 #     return False
 # print(has_33([1, 3, 1, 3]))
 
+## Given a string multiply each character by 3: Hello -> HHHeeellllllooo
