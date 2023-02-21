@@ -552,5 +552,28 @@ print(myfunk("ciao")) """
 #    return out_words
 #print(rev_sen("Ciao acs der bla col cane"))
 
+## Given an integer n, return True if n is within 10 of either 100 or 200
+#def al_there(my_int):
+#    if (90 <= my_int <=110) or (190 <= my_int <=210) :
+#        return True
+#    else:
+#        return False
+#print(al_there(209))
+# 
 
+#### FIND 33: 
+
+##Given a list of ints, return True if the array contains a 3 next to a 3 somewhere.
+##    has_33([1, 3, 3]) → True
+##    has_33([1, 3, 1, 3]) → False
+##    has_33([3, 1, 3]) → False
+# 
+# def has_33(nums):
+#     i = 0
+#     while i<= len(nums)-2:
+#         if (nums[i]) == 3 and (nums[i+1]) == 3:
+#                 return True
+#         i+=1
+#     return False
+# print(has_33([1, 3, 1, 3]))
 
