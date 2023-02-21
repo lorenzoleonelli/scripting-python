@@ -475,7 +475,23 @@ check_guess(mixed_list,guess) """
 #        print("no fruit")
 #myfunc(fruit="apple")
 
-def myfunc(*args,**kwargs):
-    print("I like {} {}".format(args[0],kwargs["food"]))
-myfunc(10,20,30,fruit='orange',food='eggs')
+#def myfunc(*args,**kwargs):
+#    print("I like {} {}".format(args[0],kwargs["food"]))
+#myfunc(10,20,30,fruit='orange',food='eggs')
 
+#def myfunc(*args):
+#    return [n for n in args if n % 2 == 0]
+#print(myfunc(1,2,3,4,5,6,7))
+
+def myfunk(mystring):
+    a = 0
+    out_string =""
+    for i in mystring:
+        print(i)
+        if a % 2 == 0:
+            out_string = out_string + i.upper()
+        else:
+            out_string = out_string + i
+        a+=1
+    return out_string
+print(myfunk("ciao"))
