@@ -483,7 +483,7 @@ check_guess(mixed_list,guess) """
 #    return [n for n in args if n % 2 == 0]
 #print(myfunc(1,2,3,4,5,6,7))
 
-def myfunk(mystring):
+""" def myfunk(mystring):
     a = 0
     out_string =""
     for i in mystring:
@@ -494,4 +494,27 @@ def myfunk(mystring):
             out_string = out_string + i
         a+=1
     return out_string
-print(myfunk("ciao"))
+print(myfunk("ciao")) """
+
+## 6.50 EXERCISES
+
+## write a func the returns the lesser of 2 given numbers if both numbers are even, and the greater if one or both are odd
+
+#def my_eve(num1,num2):
+#    if num1 % 2 == 0 and num2 % 2 == 0:
+#        return (min(num1,num2))
+#    else:
+#        return (max(num1,num2))
+#print(my_eve(7,17))
+
+##  Write a funk that takes a 2 words string and returns True if both words begin with the same letter
+#def ani_cra(mytext):
+#    mystr = mytext.split(" ")
+#    str1 = mystr[0]
+#    str2 = mystr[1]
+#    if str1[0].upper() == str2[0].upper():
+#        return True
+#    else:
+#        return False
+#print (ani_cra("ciao Pane"))
+
