@@ -455,12 +455,27 @@ check_guess(mixed_list,guess) """
 #
 #print(myfunc(40,60))
 
-def myfunc(a,b,c=0,d=0):
-    return sum((a,b,c,d)) * 0.05
-print(myfunc(30,30,40,100))
+#def myfunc(a,b,c=0,d=0):
+#    return sum((a,b,c,d)) * 0.05
+#print(myfunc(30,30,40,100))
 
+#def myfunc(*args):
+#    return sum(args) * 0.05
+#print(myfunc(30,20))
 
+#def myfunc(*args):
+#    for item in args:
+#        print(item)
+#myfunc(1,2,3,4,5)
 
+#def myfunc(**kwargs):
+#    if "fruit" in kwargs:
+#        print("My fruit of choice is {}".format(kwargs['fruit']))
+#    else:
+#        print("no fruit")
+#myfunc(fruit="apple")
 
-
+def myfunc(*args,**kwargs):
+    print("I like {} {}".format(args[0],kwargs["food"]))
+myfunc(10,20,30,fruit='orange',food='eggs')
 
