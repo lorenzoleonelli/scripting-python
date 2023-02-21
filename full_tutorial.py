@@ -518,3 +518,39 @@ print(myfunk("ciao")) """
 #        return False
 #print (ani_cra("ciao Pane"))
 
+## return 20 if num1 or num2 or num1 + num2 = 20
+#def makes20(num1, num2):
+#    if (num1 + num2 == 20 or num1 == 20 or num2 == 20):
+#        return True
+#    else:
+#        return False
+# print (makes20(12,8))
+
+## capitalize the first and fourth letter of a name
+#def old_mac(mystr):
+#    out_str = ""
+#    count = 0
+#    for i in mystr:
+#        if (count==0 or count==3):
+#            out_str = out_str + i.upper()
+#        else:
+#            out_str = out_str + i
+#        count +=1
+#    return out_str
+#print(old_mac("fetentone"))
+
+## returns the sentence with the words reversed
+#def rev_sen(mystr):
+#    out_words = ""
+#    mywords = mystr.split(" ")
+#    i = 1
+# 
+#    while i <= len(mywords):
+#        print(out_words)
+#        out_words = out_words + mywords[-i] + " "
+#        i+=1
+#    return out_words
+#print(rev_sen("Ciao acs der bla col cane"))
+
+
+
