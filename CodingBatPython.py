@@ -21,13 +21,15 @@
 ##monkey_trouble(False, False) → True
 ##monkey_trouble(True, False) → False
 
-def monkey_trouble(a_smile, b_smile):
-    if a_smile == b_smile:
-        return True
-    else:
-        return False
+#def monkey_trouble(a_smile, b_smile):
+#    if a_smile == b_smile:
+#        return True
+#    else:
+#        return False
 
-print(monkey_trouble(True, True))
-print(monkey_trouble(False, False))
-print(monkey_trouble(True, False))
+#print(monkey_trouble(True, True))
+#print(monkey_trouble(False, False))
+#print(monkey_trouble(True, False))
+
+## Given two int values, return their sum. Unless the two values are the same, then return double their sum.
 
