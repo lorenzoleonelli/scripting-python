@@ -615,8 +615,16 @@ print(myfunk("ciao")) """
 #my_nums = [1,2,3,4]
 #print(list(map(lambda num:num ** 2, my_nums)))
 
+## 6.56 Nested statements and scope
+## LEGB: Local - Enclosing Function locals - global - built-in
 
+#x = 25
+#def printer():
+#    x = 50
+#    return x
 
+#print(x)
+#print(printer())
 
 
 
