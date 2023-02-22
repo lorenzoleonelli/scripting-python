@@ -608,10 +608,12 @@ print(myfunk("ciao")) """
 #mynums = [1,2,3,4,5,6]
 #print(list(filter(check_even,mynums)))
 
-square = lambda num: num ** 2
-print(square(5))
+#square = lambda num: num ** 2
+#print(square(5))
 
 
+#my_nums = [1,2,3,4]
+#print(list(map(lambda num:num ** 2, my_nums)))
 
 
 
