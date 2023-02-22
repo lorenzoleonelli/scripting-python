@@ -578,3 +578,41 @@ print(myfunk("ciao")) """
 # print(has_33([1, 3, 1, 3]))
 
 ## Given a string multiply each character by 3: Hello -> HHHeeellllllooo
+#def mult_str(mystr):
+#    outstr = ""
+#    for i in mystr:
+#        outstr = outstr + 3*i
+#    return outstr
+
+#print(mult_str("ciao"))
+
+## 6.55 LAMBDA expressions Map and Filter
+#def square(num):
+#    return num ** 2
+
+#my_nums = [1,2,3,4]
+#print(map(square,my_nums))
+#for item in map(square,my_nums):
+#    print(item)
+
+#def splicer(mystring):
+#    if len(mystring)%2 == 0:
+#        return 'EVEN'
+#    else:
+#        return mystring[0]
+#names =["pino","mauro","carlo"]
+#print(list(map(splicer,names)))
+
+#def check_even(num):
+#    return num%2 == 0
+#mynums = [1,2,3,4,5,6]
+#print(list(filter(check_even,mynums)))
+
+
+
+
+
+
+
+
+
