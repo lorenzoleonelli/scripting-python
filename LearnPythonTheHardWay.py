@@ -169,7 +169,21 @@ print (formatter % (
 print("Hello, you are %r old" % age) """
 
 ## EX 12: Prompting People
+""" age = input("How old are you ?")
+height = input("How tall are you ?")
+weight = input("How much do you weigh ?")
 
+print("So, you are %r old, %r tall and %r heavy" % (age, height, weight)) """
+
+
+## EX 13: Parameters, Unpacking, Variables - Da rivedere
+from sys import argv
+script, first, second,third = argv
+
+print("The script is called:", script)
+print("Your 1st var is:", first)
+print("Your 2nd var is:", second)
+print("Your 3rd var is:", third)
 
 
 
