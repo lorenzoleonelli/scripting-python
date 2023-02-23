@@ -208,6 +208,56 @@
 # print(front_times('Abc', 3))
 
 
+## Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
+## string_bits('Hello') → 'Hlo'
+## string_bits('Hi') → 'H'
+## string_bits('Heeololeo') → 'Hello'
+
+#def string_bits(str):
+#    i = 0
+#    out_str = ""
+#    while i <= len (str) - 1:
+#        if i % 2 == 0:
+#            out_str += str[i]
+#        i+=1
+#    return out_str
+
+#print(string_bits('Hello'))
+#print(string_bits('Hi'))
+#print(string_bits('Heeololeo'))
+
+
+## Given a non-empty string like "Code" return a string like "CCoCodCode".
+## string_splosion('Code') → 'CCoCodCode'
+## string_splosion('abc') → 'aababc'
+## string_splosion('ab') → 'aab'
+
+#def string_splosion(str):
+#    i=0
+#    out_str=""
+#    while i <= len (str):
+#        out_str += str[:i]
+#        i = i+1
+#    return out_str
+
+#print(string_splosion('Code'))
+#print(string_splosion('abc'))
+#print(string_splosion('ab'))
+
+
+##   Given a string, return the count of the number of times that a substring length 2 appears in the string and also as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
+## last2('hixxhi') → 1
+## last2('xaxxaxaxx') → 1
+## last2('axxxaaxx') → 2
+
+## ???????????????????????
+
+
+## Given an array of ints, return the number of 9's in the array.
+## array_count9([1, 2, 9]) → 1
+## array_count9([1, 9, 9]) → 2
+## array_count9([1, 9, 9, 3, 9]) → 3
+
 
 
 
