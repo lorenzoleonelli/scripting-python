@@ -258,6 +258,52 @@
 ## array_count9([1, 9, 9]) → 2
 ## array_count9([1, 9, 9, 3, 9]) → 3
 
+#def array_count9(nums):
+#    i = 0
+#    for int_c in nums:
+#        if int_c == 9:
+#            i += 1
+#    return i
+#print(array_count9([1, 2, 9]))
+#print(array_count9([1, 9, 9]))
+#print(array_count9([1, 9, 9, 3, 9]))
+
+
+
+## Given an array of ints, return True if one of the first 4 elements in the array is a 9. The array length may be less than 4.
+## array_front9([1, 2, 9, 3, 4]) → True
+## array_front9([1, 2, 3, 4, 9]) → False
+## array_front9([1, 2, 3, 4, 5]) → False
+
+#def array_front9(nums):
+#    i = False
+#    for int_c in nums[:4]:
+#        if int_c == 9:
+#            i = True
+#    return i
+#print(array_front9([1, 2, 9, 3, 4]))
+#print(array_front9([1, 2, 3, 4, 9]))
+#print(array_front9([1, 2, 3, 4, 5]))
+
+
+## Given an array of ints, return True if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+## array123([1, 1, 2, 3, 1]) → True
+## array123([1, 1, 2, 4, 1]) → False
+## array123([1, 1, 2, 1, 2, 3]) → True
+
+#def array123(nums):
+#    count = 0
+#    while count <= len(nums) :
+#        if nums[count:count+3] == [1,2,3]:
+#            return True
+#        count += 1
+#    return False
+
+#print(array123([1, 1, 2, 3, 1]))
+#print(array123([1, 1, 2, 4, 1]))
+#print(array123([1, 1, 2, 1, 2, 3]))
+
+
 
 
 
