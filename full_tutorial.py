@@ -627,4 +627,21 @@ print(myfunk("ciao")) """
 #print(printer())
 
 
+## 7 ## M I L E S T O N E    P R O J E C T
+
+def display(row1, row2, row3):
+    print(row1)
+    print(row2)
+    print(row3)
+
+row1 = [" ", "X", " "]
+row2 = [" ", " ", " "]
+row3 = [" ", " ", " "]
+#display(row1, row2, row3)
+
+row2[1] = "X"
+#display(row1, row2, row3)
+
+result = input("Please enter a value: ")
+print(type(int(result)))
 
