@@ -112,17 +112,31 @@
 ## pos_neg(-1, 1, False) → True
 ## pos_neg(-4, -5, True) → True
 
-def pos_neg(a, b, negative):
-    if (negative == True and a < 0 and b < 0) or (negative == False and a * b < 0):
-        return True
-    else:
-        return False
+#def pos_neg(a, b, negative):
+#    if (negative == True and a < 0 and b < 0) or (negative == False and a * b < 0):
+#        return True
+#    else:
+#        return False
+#print(pos_neg(1, -1, False))
+#print(pos_neg(-1, 1, False))
+#print(pos_neg(-4, -5, True))
 
-print(pos_neg(1, -1, False))
-print(pos_neg(-1, 1, False))
-print(pos_neg(-4, -5, True))
+## Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.  
+## not_string('candy') → 'not candy'
+## not_string('x') → 'not x'
+## not_string('not bad') → 'not bad'
 
-    
+#def not_string(str):
+#    if (str[:3]) == "not":
+#        return str
+#    else:
+#        return "not " + str
+#print(not_string('candy'))
+#print(not_string('x'))
+#print(not_string('not bad'))
+
+
+
 
 
 
