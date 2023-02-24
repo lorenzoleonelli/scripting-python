@@ -697,7 +697,7 @@ print(my_dog.breed , my_dog.name , my_dog.spots)
 print(my_dog2.breed) """
 
 
-class Dog():
+""" class Dog():
 
     #Class object attribute: same for any istance of a class
     species = "mammal"
@@ -708,14 +708,33 @@ class Dog():
         self.name = name
         self.spots = spots
     #Method
-    def bark(self):
-        print("BAU I am {}".format(self.name) )
+    def bark(self,number):
+        print("BAU I am {} and the number is {}".format(self.name,number) )
 
 my_dog = Dog(breed="Lab", name ="Pippo", spots = True)
 my_dog2 = Dog(breed="cocker", name = "Cagnasso", spots = False)
 
 print(my_dog.breed , my_dog.name , my_dog.spots)
 print(my_dog2.breed, my_dog2.species)
-my_dog.bark()
+my_dog.bark(12)
+ """
 
+
+class Circle():
+    # CLASS OBJECT ATTRIBUTE
+    pi = 3.14
+
+    def __init__(self,radius=1):
+        self.radius = radius
+    
+    #METHOD
+    def get_circonference(self):
+        return self.radius * self.pi * 2
+    
+my_circle = Circle(33)
+
+print(my_circle.pi)
+print(my_circle.radius)
+
+print(my_circle.get_circonference())
 
