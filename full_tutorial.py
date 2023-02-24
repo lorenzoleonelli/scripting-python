@@ -684,17 +684,38 @@ user_choice() """
 #print(type(my_sample))
 
 
-class Dog():
-    def __init__(self, breed):
+""" class Dog():
+    def __init__(self, breed, name, spots):
         self.breed = breed
+        self.name = name
+        self.spots = spots
 
-my_dog = Dog(breed="Lab")
-my_dog2 = Dog(breed="cocker")
+my_dog = Dog(breed="Lab", name ="Pippo", spots = True)
+my_dog2 = Dog(breed="cocker", name = "Cagnasso", spots = False)
 
-print(my_dog.breed)
-print(my_dog2.breed)
+print(my_dog.breed , my_dog.name , my_dog.spots)
+print(my_dog2.breed) """
 
 
+class Dog():
 
+    #Class object attribute: same for any istance of a class
+    species = "mammal"
+
+    #Attributes
+    def __init__(self, breed, name, spots):
+        self.breed = breed
+        self.name = name
+        self.spots = spots
+    #Method
+    def bark(self):
+        print("BAU I am {}".format(self.name) )
+
+my_dog = Dog(breed="Lab", name ="Pippo", spots = True)
+my_dog2 = Dog(breed="cocker", name = "Cagnasso", spots = False)
+
+print(my_dog.breed , my_dog.name , my_dog.spots)
+print(my_dog2.breed, my_dog2.species)
+my_dog.bark()
 
 
