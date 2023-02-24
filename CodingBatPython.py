@@ -304,6 +304,65 @@
 #print(array123([1, 1, 2, 1, 2, 3]))
 
 
+## Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring. So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings.
+## string_match('xxcaazz', 'xxbaaz') → 3
+## string_match('abc', 'abc') → 2
+## string_match('abc', 'axc') → 0
+
+#def string_match(a, b):
+#    i = 0
+#    count = 0
+#    while i <= len(a)-2:
+#        if a[i:i+2] == b[i:i+2]:
+#            count += 1
+#        i+=1
+#    return count
+
+#print(string_match('xxcaazz', 'xxbaaz'))
+#print(string_match('abc', 'abc'))
+#print(string_match('abc', 'axc'))
+
+
+## Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
+## hello_name('Bob') → 'Hello Bob!'
+## hello_name('Alice') → 'Hello Alice!'
+## hello_name('X') → 'Hello X!'
+
+#def hello_name(name):
+#    return("Hello " + name + "!")
+#hello_name("Pino")
+
+
+##Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+##make_abba('Hi', 'Bye') → 'HiByeByeHi'
+##make_abba('Yo', 'Alice') → 'YoAliceAliceYo'
+##make_abba('What', 'Up') → 'WhatUpUpWhat'
+
+#def make_abba(a, b):
+#    return(a + b + b + a)
+#print(make_abba("ciao","----"))
+
+
+## The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic text. In this example, the "i" tag makes <i> and </i> which surround the word "Yay". Given tag and word strings, create the HTML string with tags around the word, e.g. "<i>Yay</i>".
+## make_tags('i', 'Yay') → '<i>Yay</i>'
+## make_tags('i', 'Hello') → '<i>Hello</i>'
+## make_tags('cite', 'Yay') → '<cite>Yay</cite>'
+
+def make_tags(tag, word):
+    return("<" + tag + ">" + word + "<" + tag + ">")
+
+print(make_tags('i', 'Yay'))
+print(make_tags('i', 'Hello'))
+print(make_tags('cite', 'Yay'))
+
+
+
+
+
+
+
+
+
 
 
 
