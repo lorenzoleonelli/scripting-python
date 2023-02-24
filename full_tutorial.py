@@ -629,7 +629,7 @@ print(myfunk("ciao")) """
 
 ## 7 ## M I L E S T O N E    P R O J E C T
 
-def display(row1, row2, row3):
+""" def display(row1, row2, row3):
     print(row1)
     print(row2)
     print(row3)
@@ -663,7 +663,38 @@ def user_choice():
 
     return int(choice)
 
-user_choice()
+user_choice() """
+
+## .................
+## .................
+
+
+
+
+## 8.1 Object Oriented Programming Introduction
+## Allow to scle your code, creating your own objects with methods and attributes
+
+#mylist = [1,2,3]
+#myset = set()
+
+#class Sample():
+#    pass
+
+#my_sample = Sample()
+#print(type(my_sample))
+
+
+class Dog():
+    def __init__(self, breed):
+        self.breed = breed
+
+my_dog = Dog(breed="Lab")
+my_dog2 = Dog(breed="cocker")
+
+print(my_dog.breed)
+print(my_dog2.breed)
+
+
 
 
 
