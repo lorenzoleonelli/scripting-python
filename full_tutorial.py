@@ -739,9 +739,9 @@ print(my_circle.radius)
 print(my_circle.get_circonference()) """
 
 ## 8.71 Inheritance and Polimorphism
+##
 
-
-class Animal():
+""" class Animal():
     def __init__(self):
         print("Animal created")
 
@@ -768,4 +768,63 @@ myanimal.eat()
 myanimal.who_am_i()
 mydog= Dog()
 mydog.who_am_i()
-mydog.bark()
+mydog.bark() """
+
+###########################
+
+""" class Dog():
+    def __init__(self,name) -> None:
+        self.name = name
+    def speak(self):
+        return self.name + " woof!"
+    
+class Cat():
+    def __init__(self,name) -> None:
+        self.name = name
+    def speak(self):
+        return self.name + " mao"
+    
+niko = Dog("niko")
+felix = Cat("felix")
+
+print(niko.speak())
+print(felix.speak())
+
+for pet in [niko, felix]:
+    print(type(pet))
+    print(type(pet.speak()))
+
+def pet_speak(pet):
+    print(pet.speak())
+
+pet_speak(niko) """
+
+## 8.72 OO Programming Special Methods
+##
+
+""" mylist = [1,2,3]
+print(len(mylist))
+
+class Sample():
+    pass
+mysample = Sample()
+print(mysample)
+
+
+class Book():
+    def __init__(self,title,author,pages) -> None:
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+
+b = Book("Python1","Jose",200)
+print(b)
+str(b) """
+
+## 8.73 OO Programming Exercises
+
+
+## 9.77 Modules and Packages
