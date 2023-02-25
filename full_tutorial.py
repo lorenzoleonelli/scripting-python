@@ -828,3 +828,23 @@ str(b) """
 
 
 ## 9.77 Modules and Packages
+
+
+## 9.78 name and main
+
+
+## 10.80 Errors and Exception Handling
+## Error handling allows th code to continue with other code and report the error
+## try: attempted block of code
+## except: executed if there is an error in the try code
+## finally: executed regardless of an error
+
+def add(n1,n2):
+    print(n1+n2)
+
+print(add(10,"aa"))
+
+
+
+
+
