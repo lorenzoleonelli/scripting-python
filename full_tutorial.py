@@ -720,7 +720,7 @@ my_dog.bark(12)
  """
 
 
-class Circle():
+""" class Circle():
     # CLASS OBJECT ATTRIBUTE
     pi = 3.14
 
@@ -736,5 +736,36 @@ my_circle = Circle(33)
 print(my_circle.pi)
 print(my_circle.radius)
 
-print(my_circle.get_circonference())
+print(my_circle.get_circonference()) """
 
+## 8.71 Inheritance and Polimorphism
+
+
+class Animal():
+    def __init__(self):
+        print("Animal created")
+
+    def who_am_i(self):
+        print("I am an animal")
+    
+    def eat(self):
+        print("I am eating")
+
+class Dog(Animal):
+    def __init__(self):
+        Animal.__init__(self)
+        print("Dog created")
+
+    def who_am_i(self):
+        print("I am a dog!")
+
+    def bark(self):
+        print("bau")
+
+
+myanimal = Animal()
+myanimal.eat()
+myanimal.who_am_i()
+mydog= Dog()
+mydog.who_am_i()
+mydog.bark()
