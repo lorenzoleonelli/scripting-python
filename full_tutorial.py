@@ -1056,5 +1056,3 @@ print(sammy)
 print(sammy.age)
 print(sammy[0]) """
 
-
-
