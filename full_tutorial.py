@@ -839,12 +839,121 @@ str(b) """
 ## except: executed if there is an error in the try code
 ## finally: executed regardless of an error
 
-def add(n1,n2):
-    print(n1+n2)
+#def add(n1,n2):
+#    print(n1+n2)
+#
+#print(add(10,"aa"))
 
-print(add(10,"aa"))
+""" try:
+#   result = 10 + "10"
+    result = 10 + 10
+except:
+    print("Not adding correctly")
+else:
+    print("Correctly added")
+    print(result) """
+
+
+""" try:
+    f = open("testfile","r")
+    f.write("Write a test line")
+except TypeError:
+    print("Was a typerror")
+except OSError:
+    print("was OS error")
+except:
+    print("All other exceptions")
+finally:
+    print("I always run") """
+
+
+"""  """
+
+
+""" def ask_for_int():
+    while True: # Remember that with while true there must always be a "break"
+        try:
+            result = int(input("Pls provide number:"))
+        except:
+            print("That is not a number")
+            continue
+        else:
+            print("Thank you")
+            break
+        finally:
+            print("End of try")
+
+ask_for_int() """
+
+## 10.81 Errors and exceptions homework
+
+""" try:
+    for i in [2,"b","3"]:
+        print(i**2)
+except:
+    print("enter integers") """
+
+## 10.84 Pylint: evaluates the quality of your code
+## Pip install pylint
+## pylint full_tutorial.py
+
+#a = 1
+#b = 2
+#print(a)
+#print(B)
+
+## 10.85 Run tests with unittest library
 
 
 
 
+## 12.98 Decorators with Python: decorate a function
+
+""" def func():
+    return 1
+
+print(func()) """
+
+#def hello():
+#    return "Hello!"
+
+#greet = hello
+##print(greet())
+
+#del hello
+##print(hello())
+#print(greet())
+
+""" def hello(name="Lore"):
+    print("The hello() func has been executed")
+
+    def greet():
+        return "\t This is the greet func inside hello"
+    
+    def welcome():
+        return "\t This is welcome() inside hello"
+    
+    print(greet())
+    print(welcome())
+
+hello()
+welcome() """
+
+def hello(name="Lore"):
+    print("The hello() func has been executed")
+
+    def greet():
+        return "\t This is the greet func inside hello"
+    
+    def welcome():
+        return "\t This is welcome() inside hello"
+    
+    print("I am going to return a function!!")
+
+    if name == "Lore":
+        return greet
+    else:
+        return welcome
+
+my_new_func= hello("Lore")
 
