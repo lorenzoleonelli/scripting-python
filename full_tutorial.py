@@ -939,7 +939,7 @@ print(func()) """
 hello()
 welcome() """
 
-def hello(name="Lore"):
+""" def hello(name="Lore"):
     print("The hello() func has been executed")
 
     def greet():
@@ -955,5 +955,16 @@ def hello(name="Lore"):
     else:
         return welcome
 
-my_new_func= hello("Lore")
+my_new_func= hello("Lore") """
 
+## 13.100 Python Generators
+
+#my_list = list(range(0,10))
+#for i in my_list:
+#    print(i)
+
+def create_cubes(n):
+    result = []
+
+
+## 14.103 Intro to Advanced Python modules
