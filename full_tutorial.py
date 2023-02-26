@@ -97,7 +97,7 @@
 #my_list1[0] = "ciao"
 #print(my_list1)
 
-## Itemps can be appended
+## Items can be appended
 #my_list1 = [1,2,3]
 #my_list1.append(4)
 #print(my_list1)
@@ -1023,3 +1023,38 @@ print(next(s_iter)) """
 
 
 ## 14.103 Intro to Advanced Python modules
+
+## 14.104 Python collection module
+
+""" from collections import Counter
+
+mylist = [1,1,1,1,1,2,2,2,2,3,3,3,"a","a"]
+print(Counter(mylist))
+print(Counter(mylist)[1])
+
+Sentence = "how many times does a word show with a word in times how ?"
+print(Counter(Sentence.split()))
+
+letters = "aaaaaaaabbbbbbbbbbbccddd"
+c=Counter(letters)
+print(c.most_common(2)) """
+
+
+""" from collections import defaultdict
+d=defaultdict(lambda: 0)
+d["correct"] = 100
+print(d["correct"])
+print(d["wrong"])
+print(d) """
+
+
+""" from collections import namedtuple
+Dog = namedtuple("Dog",["age","breed","name"])
+sammy = Dog(age=5, breed ="Husky", name="Sam")
+print(type(sammy))
+print(sammy)
+print(sammy.age)
+print(sammy[0]) """
+
+
+
