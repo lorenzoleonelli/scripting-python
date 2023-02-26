@@ -963,11 +963,63 @@ my_new_func= hello("Lore") """
 #for i in my_list:
 #    print(i)
 
-def create_cubes(n):
+""" def create_cubes(n):
     result = []
     for x in range(n):
         result.append(x ** 3)
     return result
+
+print(create_cubes(10)) # The entire list is kept in memory
+
+for x in create_cubes(10):
+    print(x) """
+
+
+""" def create_cubes(n):
+    for x in range(n):
+        yield x ** 3
+
+for x in create_cubes(10): # it is a genarator, memory used more efficiently
+    print(x) """
+
+
+""" def Fibo(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        yield a
+        a, b = b, a + b
+
+for num in Fibo(10):
+    print(num) """
+
+
+""" def simple_gen():
+    for x in range(3):
+        yield x
+
+for number in simple_gen():
+    print(number)
+
+g = simple_gen()
+
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g)) # Her it will throw an error """
+
+
+""" s = "hello"
+for letter in s:
+    print(letter)
+
+s_iter = iter(s)
+print(next(s_iter))
+print(next(s_iter))
+print(next(s_iter))
+print(next(s_iter))
+print(next(s_iter))
+print(next(s_iter)) """
 
 
 ## 14.103 Intro to Advanced Python modules
