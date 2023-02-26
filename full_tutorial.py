@@ -965,6 +965,9 @@ my_new_func= hello("Lore") """
 
 def create_cubes(n):
     result = []
+    for x in range(n):
+        result.append(x ** 3)
+    return result
 
 
 ## 14.103 Intro to Advanced Python modules
