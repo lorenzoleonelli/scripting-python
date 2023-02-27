@@ -1067,5 +1067,37 @@ print(sammy[0]) """
 #print(os.listdir())
 #print(os.listdir("F:\_PERSONAL\THEINFOSECVAULT"))
 
-import shutil
-shutil.move ('practice.txt', '..')
+#import shutil
+#shutil.move ('practice.txt', '..')
+
+#import os
+#for folder, sub_folders, files in os.walk('.'):
+#    print(f"Looking at {folder}")
+#    print("\n")
+#    print("The subfolders are:")
+#    for sub_fold in sub_folders:
+#        print(f"Subfolders: {sub_fold}")
+#    print("\n")
+#    print("the files are: ")
+#    for f in files:
+#        print(f"\t File: {f}")
+#    print("\n")
+
+## 100.106 Python DateTime
+
+#import datetime
+#mytime = datetime.time(2,20)
+#print(mytime.minute)
+#print(mytime)
+#print(type(mytime))
+
+#from datetime import date
+#from datetime import datetime
+#date1 = date(2021,11,3)
+#date2 = date(2020,11,4)
+#print(date1 - date2)
+#datetime1 = datetime(2021,12,3,22,30)
+#datetime2 = datetime(2021,11,3,21,0)
+#print(datetime1 - datetime2)
+
+
