@@ -360,6 +360,13 @@
 ## extra_end('ab') → 'ababab'
 ## extra_end('Hi') → 'HiHiHi'
 
+#def extra_end(str):
+#    substr = str[len(str)-2:len(str)]
+#    return(3 * substr)
+#print(extra_end("ciao mona"))
+
+
+
 
 
 
