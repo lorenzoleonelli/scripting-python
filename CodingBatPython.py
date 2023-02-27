@@ -371,10 +371,37 @@
 ## first_half('HelloThere') → 'Hello'
 ## first_half('abcdef') → 'abc'
 
-def first_half(str):
-    substr = str[0:len(str)//2]
-    return(substr)
-print(first_half("mona"))
+#def first_half(str):
+#    substr = str[0:len(str)//2]
+#    return(substr)
+#print(first_half("mona"))
+
+## Given a string, return a version without the first and last char, so "Hello" yields "ell". The string length will be at least 2.
+## without_end('Hello') → 'ell'
+## without_end('java') → 'av'
+## without_end('coding') → 'odin'
+
+#def without_end(str):
+#    substr = str[1:len(str)-1]
+#    return(substr)
+#print(without_end("Acapulco"))
+
+
+## Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty (length 0).
+## combo_string('Hello', 'hi') → 'hiHellohi'
+## combo_string('hi', 'Hello') → 'hiHellohi'
+## combo_string('aaa', 'b') → 'baaab'
+
+#def combo_string(a, b):
+#    if len(a) < len(b):
+#        return(a + b + a)
+#    else:
+#        return(b + a + b)
+#print(combo_string('Hello', 'hi'))
+#print(combo_string('hi', 'Hello'))
+#print(combo_string('aaa', 'b'))
+
+
 
 
 
