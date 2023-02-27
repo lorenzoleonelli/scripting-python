@@ -1056,3 +1056,16 @@ print(sammy)
 print(sammy.age)
 print(sammy[0]) """
 
+## 14.104 Python OS and shutil module
+
+#f = open("practice.txt","w+")
+#f.write("This is a test string")
+#f.close
+
+#import os
+#print(os.getcwd())
+#print(os.listdir())
+#print(os.listdir("F:\_PERSONAL\THEINFOSECVAULT"))
+
+import shutil
+shutil.move ('practice.txt', '..')
