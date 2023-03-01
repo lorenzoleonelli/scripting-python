@@ -402,6 +402,29 @@
 #print(combo_string('aaa', 'b'))
 
 
+## Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
+## non_start('Hello', 'There') → 'ellohere'
+## non_start('java', 'code') → 'avaode'
+## non_start('shotl', 'java') → 'hotlava'
+#def non_start(a, b):
+#    return a[1::] + b[1::]
+#print(non_start('Hello', 'There')) 
+
+
+## Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2.
+## left2('Hello') → 'lloHe'
+## left2('java') → 'vaja'
+## left2('Hi') → 'Hi'
+
+def left2(str):
+    left = str[0:2]
+    return str[2::] + left
+
+print(left2('Hello'))
+
+
+
+
 
 
 
