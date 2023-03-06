@@ -1130,3 +1130,11 @@ print(sammy[0]) """
 #pdb.set_trace()
 #result2 = x + y
 
+
+## Regular expressions
+#import re
+#text = "the phone number is 408-555-1234. call him"
+#pattern = "phone"
+#print(re.search(pattern, text))
+
+
