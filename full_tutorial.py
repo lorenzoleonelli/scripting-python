@@ -1139,3 +1139,17 @@ print(sammy[0]) """
 
 
 ## Timing your code
+#import time
+#start_time = time.time()
+#def func1(n):
+#    return [str(num) for num in range(n)]
+
+#def func2(n):
+#    return list(map(str,range(n)))
+#start_time = time.time()
+#result = func1(5000000)
+#end_time = time.time()
+#elapsed_time = end_time - start_time
+#print(elapsed_time)
+#print(func2(5))
+
